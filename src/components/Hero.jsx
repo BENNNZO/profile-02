@@ -24,7 +24,7 @@ export default function Hero() {
     }, [])
 
     return (
-        <section className='h-screen'>
+        <section className='h-screen relative'>
             {/* <Image
                 src="/img/hero-bg-grid.png"
                 width={1000}
@@ -37,8 +37,8 @@ export default function Hero() {
                         {[...Array(amt.x)].map((e, i) => (
                             <div 
                                 key={i} 
-                                className={`h-1 bg-white/20 shadow-lg rounded-full`}
-                                style={{ width: `${(i + 1) * 5}px` }}
+                                className={`h-1 bg-white/20 shadow-lg rounded-full w-1`}
+                                // style={{ width: `${(i + 1) * 5}px` }}
                             ></div>
                         ))}
                     </div>
