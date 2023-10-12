@@ -1,25 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.animate-hero-spin {
-    animation: normal wave 3s infinite ease-out;
-}
-
-@keyframes wave {
-    0% {
-        transform: translate(-50%, -50%) rotate(0deg);
-    }
-    25% {
-        transform: translate(-50%, -50%) rotate(0deg);
-    }
-    50% {
-        transform: translate(-50%, -50%) rotate(45deg);
-    }
-    75% {
-        transform: translate(-50%, -50%) rotate(45deg);
-    }
-    100% {
-        transform: translate(-50%, -50%) rotate(0deg);
-    }
-}
