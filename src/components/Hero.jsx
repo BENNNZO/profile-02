@@ -60,7 +60,7 @@ export default function Hero() {
                     />
                 </div>
             </div>
-            <div className='absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white to-transparent'></div>
+            <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-[75rem] h-px bg-gradient-to-r from-transparent via-white to-transparent'></div>
         </section>
     )
 }

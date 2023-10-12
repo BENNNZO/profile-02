@@ -41,9 +41,9 @@ export default function Jobs() {
     return (
         <section className='w-[50rem] mx-auto py-12 relative'>
             <h1 className='text-3xl font-bold'>JOB EXPERIENCES</h1>
-            <div className='mt-6 pl-12 flex flex-col gap-8'>
+            <ul className='mt-6 pl-12 flex flex-col gap-8'>
                 {jobs.map((e, i) => (
-                    <div key={i} className='grid grid-cols-[0.6rem,1fr] gap-x-12 gap-y-2'>
+                    <li key={i} className='grid grid-cols-[0.6rem,1fr] gap-x-12 gap-y-2'>
                         <span className='w-full aspect-square rounded-full bg-white my-auto'></span>
                         <div className='flex flex-row gap-4 items-end'>
                             <p className='font-bold text-lg'>{e.title}</p>
@@ -52,16 +52,16 @@ export default function Jobs() {
                         <span className='mx-auto w-px h-full bg-gradient-to-b from-white to-transparent'></span>
                         <ul className='flex flex-col gap-0 pl-6'>
                             {e.points.map((e, i) => (
-                                <div key={i} className='group flex flex-row gap-2'>
+                                <li key={i} className='group flex flex-row gap-2'>
                                     <p className='group-hover:translate-x-2 transition-all duration-500 ease-out relative'> - </p>
-                                    <li className='group-hover:translate-x-2 transition-all duration-200 ease-out relative'>{e}</li>
-                                </div>
+                                    <p className='group-hover:translate-x-2 transition-all duration-200 ease-out relative'>{e}</p>
+                                </li>
                             ))}
                         </ul>
-                    </div>
+                    </li>
                 ))}
-            </div>
-            <div className='absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white to-transparent'></div>
+            </ul>
+            <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-[75rem] h-px bg-gradient-to-r from-transparent via-white to-transparent'></div>
         </section>
     )
 }
