@@ -12,7 +12,7 @@ import { Model } from '@/components/models/Test_05'
 
 export default function Background() {
     return (
-        <main className='h-screen fixed w-full'>
+        <main className='h-screen absolute top-0 left-0 w-full'>
             <Canvas>
                 <EffectComposer>
                     <Bloom intensity={0.1} radius={0.5} mipmapBlur levels={10} blendFunction={BlendFunction.ADD} />

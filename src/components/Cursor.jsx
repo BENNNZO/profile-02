@@ -12,7 +12,7 @@ export default function Cursor() {
     }, [])
 
     return (
-        <section className='fixed top-0 left-0 pointer-events-none'>
+        <section className='fixed top-0 left-0 pointer-events-none z-20'>
             <div className='absolute w-8 h-8 bg-white/20 z-20 transition-transform ease-out duration-200 rounded-full' style={{ transform: `translate(calc(${mousePos.x}px - 50%), calc(${mousePos.y}px - 50%))` }}>
             
             </div>

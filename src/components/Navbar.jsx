@@ -11,13 +11,13 @@ export default function Navbar() {
             />
             <ul className='flex flex-row gap-5'>
                 <li>
-                    <a href="#about-me" className='cursor-none transition-all border-b border-white/0 hover:border-white top-0 hover:-top-0.5 relative'>ABOUT ME</a>
+                    <a href="#about-me" className='cursor-none transition-all border-b border-white/0 hover:border-white top-0 hover:-top-0.5 relative ease-out'>ABOUT ME</a>
                 </li>
                 <li>
-                    <a href="#about-me" className='cursor-none transition-all border-b border-white/0 hover:border-white top-0 hover:-top-0.5 relative'>PROJECTS</a>
+                    <a href="#about-me" className='cursor-none transition-all border-b border-white/0 hover:border-white top-0 hover:-top-0.5 relative ease-out'>PROJECTS</a>
                 </li>
                 <li>
-                    <a href="#about-me" className='cursor-none transition-all border-b border-white/0 hover:border-white top-0 hover:-top-0.5 relative'>CONTACT ME</a>
+                    <a href="#about-me" className='cursor-none transition-all border-b border-white/0 hover:border-white top-0 hover:-top-0.5 relative ease-out'>CONTACT ME</a>
                 </li>
             </ul>
         </section>
