@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Navbar() {
     return (
-        <section className='cursor-none backdrop-blur-lg z-10 fixed top-0 left-0 px-8 h-12 py-2 border-b border-white/50 w-full flex flex-row justify-between items-center text-white'>
+        <section className='cursor-none backdrop-blur-lg z-20 fixed top-0 left-0 px-8 h-12 py-2 border-b border-white/50 w-full flex flex-row justify-between items-center text-white'>
             <Image 
                 src="/svg/logo.svg"
                 width={80}
